@@ -1,2 +1,2 @@
-# labor-econ
-Notes and codes for labor economics course
+# Labor Econ
+Materials in Labor Economics field.
