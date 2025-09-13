@@ -39,7 +39,7 @@ Human capital has been widely discussed in the literature, with education and ex
 while \cite{mincer1974schooling} demonstrates years of experience rather than age, along with schooling, explains the wage differential.
 
 To estimate the causal effect of returns to education, the reduced-form approach is the most common method. 
-However, estimates from ordinary least squares(OLS) are often argued to be upward biased.
+However, estimates from ordinary least squares (OLS) are often argued to be upward biased.
 To address the endogeneity issue, \cite{angrist1991does} employed the quarter of birth as an instrument to support the evidence that longer compulsory schooling
 results in higher wages, despite the insignificant difference between 2LSL and OLS estimators.
 Later, \cite{angrist1992estimating} used the draft lottery to isolate the variation in school enrollment and found that
@@ -128,7 +128,7 @@ Let $\delta \in (0,1)$ be the discount factor. At each period $t$, agents aims t
 Note that we ignore the subscript $i$ since every agent follows the same decision rule. Rewrite the maximization problem as Bellman equation:
 \begin{equation}
 \small
-V(X_{t}, \varepsilon_t) = \max_{a_{t} \in \{0,1\}} \bigg[ u( X_{t}, a_t) +  \varepsilon_{t}(a_{t}) + \delta \iint V(X_{t+1}, \varepsilon_{t+1})dG(\varepsilon_{it}) dF(X_{t+1} \mid X_{t},a_{t})\bigg],
+V(X_{t}, \varepsilon_t) = \max_{a_{t} \in \{0,1\}} \bigg[ u( X_{t}, a_t) +  \varepsilon_{t}(a_{t}) + \delta \iint V(X_{t+1}, \varepsilon_{t+1})dG(\varepsilon_{it}) dF(X_{t+1} \mid X_{t},a_{t})\bigg].
 \end{equation}
 
 
@@ -161,7 +161,7 @@ Note that in equation \eqref{eq_barv}, we can define the choice-specific value f
 \begin{equation}
 \begin{split}
 v(X_{t}, a_t) &\equiv u(X_t, a_t) + \delta\int \Bar{V}(X_{t+1}) df(X_{t+1} \mid X_{t}, a_t)dX_{t+1}\\
-&= u(X_{t}, a_{t}) + \delta \mathbb{E}_{X_{t+1}} [\Bar{V}(X_{t+1})|X_{t}, a_t],
+&= u(X_{t}, a_{t}) + \delta \mathbb{E}_{X_{t+1}} [\Bar{V}(X_{t+1})|X_{t}, a_t].
 \end{split}
 \end{equation}
 
@@ -237,7 +237,7 @@ The likelihood function is:
 
 
 \subsection{Preliminary Results}
-
+Table \eqref{est_paras} summarizes the predetermined parameters and the estimation results.
 \begin{table}[hpbt]
 \centering
 \begin{tabular}{llcc}
